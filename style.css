@@ -24,7 +24,7 @@ ul li:nth-child(odd) {
     background: #ffc6f1;
 }
 ul li:hover{
-    background:rgb(175, 196, 255); 
+    background:rgb(175, 255, 255); 
 }
  ul li.checked::before {
     content: '';
@@ -47,14 +47,14 @@ ul li:hover{
     padding: 12px 16px 12px 16px;
  }
  .close:hover{
-    background-color: rgb(175, 196, 255);
+    background-color:rgb(189, 255, 255);
     color: white;
  }
  /*Header Style */
  .header {
-    background-color: rgb(201, 168, 255);
+    background-color: rgb(3, 17, 80);
     padding: 30px 40px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
  }
 
@@ -86,6 +86,12 @@ ul li:hover{
     clear: both; 
  }
  .addBtn:hover {
-    background-color: rgb(175, 196, 255);
-    color:white;
+    background-color: rgb(189, 255, 255);
+    color:rgb(3, 17, 80);
  }
+body{
+   background-color: rgb(212, 212, 212);
+}
+img {
+   box-shadow: 15px 15px #ffc6f1;
+}
