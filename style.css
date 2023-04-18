@@ -48,7 +48,7 @@ ul li:hover{
  }
  .close:hover{
     background-color:rgb(189, 255, 255);
-    color: white;
+    color: rgb(3, 17, 80);
  }
  /*Header Style */
  .header {
@@ -93,5 +93,5 @@ body{
    background-color: rgb(212, 212, 212);
 }
 img {
-   box-shadow: 15px 15px #ffc6f1;
+   box-shadow: 15px px #ffc6f1;
 }
